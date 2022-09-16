@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD Productions</title>
+    <link rel="icon" type="image/x-icon" href="images/cdplogo.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href ="test.html">
+    <script src="https://kit.fontawesome.com/92cde7fc6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id ="header">      
+<div class="container">
+    <nav>
+        <img src="images/cdplogo.png" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Basic Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="test.html">Submission Checker</a></li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i class="fas fa-bars" onclick="openmenu()"></i> 
+    </nav>
+    <div class="header-text">
+        <p>From the <span> SJB Kalentong Branch</span> </p>
+        <h1> Hi, I'm Mark Francis <br> De Guzman, <br> First Year <span> IT Student </span>  </h1>
+    </div>
+</div>
+</div>
+            
+
+<!------------ABOUT---------------------------->
+<div id="about">
+    <div class="container">
+    <div class="row">
+    <div class="about-col-1">
+        <img src="images/User.png">
+    </div>
+    <div class="about-col-2">
+    <h1 class="sub-title"> About Me</h1>
+    <p>Hello. My name is Mark Francis Perez De Guzman, currently a First year student in Saint John Bosco - Kalentong Branch.<br>
+        I am currently studying to pursue a Degree in Information Technology and hone my skills as I take my journey to a better future.<br>
+        My main goal is to be a Network Administrator in the future, but there is always 
+        an option to be a Front-End Developer or a GUI Developer.</p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Basic Skills</p> 
+            <p class="tab-links" onclick="opentab('education')">Education</p> 
+            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p> 
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Visual Basic.net</span><br>Basic Front-End and Back-End Coding</li>
+                <li><span>C/C++ Coding</span><br>Basic Code Development</li> 
+                <li><span>Electronics</span><br>Basic Circuit and Soldering</li>                 
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>Rizal Techonological University</span><br>2014-2015</li>
+                <li><span>Arellano University Main Campus</span><br>2015-2022</li> 
+                <li><span>Saint John Bosco Kalentong Branch</span><br>2022-Present</li>                 
+            </ul>
+        </div>
+        <div class="tab-contents" id="hobbies">
+            <ul>
+                <li><span>Gunpla Making</span><br>Customizing and Installing LEDs</li>
+                <li><span>Playing Games</span><br>MOBA, Triple A Games</li> 
+                <li><span>Practicing Electronics</span><br>Honing skills</li>                 
+            </ul>
+        </div>
+    </div>
+</div> 
+</div>
+</div>
+
+<!------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Basic Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Video Editing / Videography</h2>
+                <p>This service will be provided for people who struggles
+                    in Video Editing.</p>
+                <a href="#">Learn more</a>   
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Technical Services</h2>
+                <p>In this section, we will be providing people Budget 
+                    friendly techincal services that comes in 
+                    great quality.</p>
+                <a href="#">Learn more</a>   
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Gunpla Services</h2>
+                <p>This service will be provided for people who struggles
+                    in Video Editing.</p>
+                <a href="#">Learn more</a>   
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>  
+        <div class="work-list">
+            <div class="work">
+                <img src="images/gunpla.png">
+                <div class="layer">
+                    <h3>Gundam Builds</h3>
+                    <p>This section shows you all of the Gundam kits that
+                        I've built over the years.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/technical.png">
+                <div class="layer">
+                    <h3>Technical Tinkering</h3>
+                    <p>This section shows some of the technical repairs,
+                        conversions, tinkering and more.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/video.png">
+                <div class="layer">
+                    <h3>Video Portfolio</h3>
+                    <p>This section will redirect you to my Youtube
+                        Channel in which where all of the edited videos located.</p>
+                    <a href="https://www.youtube.com/c/CatDumplingProductions"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-------------------contact----------------->
+
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>deguzmanmarkfrancisp@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/siopao.mark/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://github.com/markgg33"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.youtube.com/c/CatDumplingProductions"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6"placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+<p>Copyright © Mark. Made with by CD Productions 2022</p>
+</div>
+</div>
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links")
+var tabcontents = document.getElementsByClassName("tab-contents")
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWQy8VJpNd0OYmOzzP7gxem0qVywP8szgRYfttVKXgzdaaWJax2-O7_4oHlg1Rv3vB/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent successfully!"
+            setTimeout(function(){msg.innerHTML = ""}, 5000);
+        })
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
