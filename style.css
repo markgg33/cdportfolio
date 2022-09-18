@@ -1,21 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     font-weight: 600;
 }
+
 html{
     scroll-behavior: smooth;
 }
 body{
     background:  #7f7f7f;
     color: #fff;
-}
-.btnreturn{
-    display: inline-block;
-    bottom: 0px;
-    right: 0px;
 }
 #header{
     width: 100%;
@@ -113,7 +109,7 @@ color: #fff;
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     position: relative;
 }
