@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-    font-weight: 600;
+    font-weight: 550;
 }
 .arrow-btn{
     position: fixed;
@@ -20,12 +20,13 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.arrow-btn a span{
+.arrow-btn a i{
     color: #fff;
     line-height: 39px;
     font-size: 25px;
 
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -85,7 +86,6 @@ nav ul li a:hover::after{
 }
 .header-text h1{ 
     font-size: 60px;
-
 }
 .header-text h1 span{
     color:#439CEF;
@@ -96,10 +96,9 @@ nav ul li a:hover::after{
 
 /*---------------ABOUT------------------*/
 #about{
-padding: 80px 0;
-color: #fff;
-}
-
+    padding: 80px 0;
+    color: #fff;
+    }
 .row{
     display: flex;
     justify-content: space-between;
