@@ -8,6 +8,8 @@
     <link rel="icon" type="image/x-icon" href="images/cdplogo.ico">
     <link rel="stylesheet" href="second.css">
     <script src="https://kit.fontawesome.com/92cde7fc6f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <div id ="header1">
@@ -32,9 +34,41 @@
         </div>
     </div>
 
+    <div class="info-container">
+        <p>The <span>CDP Submission Checker</span> is a software programmed to be for personal use created by a production called
+        <span>Cat Dumpling Productions</span>. This software is free to download, but it is still in progress. It still has bugs and logical errors due to me, practicing programming
+        and still serves as a REFRESHER. If you want to be part of one of the <span class="spngreen">Alpha testers </span>,
+         you can contact me for the <span class = "spnred">CUSTOMIZATION</span> of the software and fit your liking. <br>
+        You can find my contact information down below or you can go to the bottom of the <span>HOME</span> section to message or send a suggestion. You may also find it interesting
+        to download the <span class="spnblue">DOCUMENTATION</span> of the software. 
+    </p>
+    </div>
+<!-------------------image slider----------------->
+<div class="container-slide">
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="checkerImages/01.png"></div>
+      <div class="swiper-slide"><img src="checkerImages/02.png"></div>
+      <div class="swiper-slide"><img src="checkerImages/03.png"></div>
+      <div class="swiper-slide"><img src="checkerImages/04.png"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>   
+</div>
+<div class="btnsplit">
     <a href="SJB Submission Checker/SJB Submission Checker.rar" src="SJB Submission Checker/SJB Submission Checker.rar" class="btnnew" download>Download</a>
-
-
+    <a href="Documentation.pdf" src="Documentation.pdf" class="btndoc" download>CDP Documentation 2022</a>
+</div>
+    
   <!-------------------contact----------------->
 
 <div id="contact">
@@ -71,5 +105,26 @@
             }
         
         </script> 
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+} );
+        </script>
 </body>
 </html>
